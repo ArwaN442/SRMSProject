@@ -24,7 +24,6 @@ package com.mycompany.srmsproject;
         this.name = name;
     }
 
-    // Getter & Setter
     public int getAge() {
         return age;
     }

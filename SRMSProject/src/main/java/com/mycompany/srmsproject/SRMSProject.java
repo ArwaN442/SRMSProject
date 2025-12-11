@@ -15,7 +15,7 @@ package com.mycompany.srmsproject;
         this.age = age;
     }
 
-    // Getter & Setter للـ name
+    // Getter & Setter 
     public String getName() {
         return name;
     }
@@ -24,7 +24,7 @@ package com.mycompany.srmsproject;
         this.name = name;
     }
 
-    // Getter & Setter للـ age
+    // Getter & Setter
     public int getAge() {
         return age;
     }
@@ -33,7 +33,6 @@ package com.mycompany.srmsproject;
         this.age = age;
     }
 
-    // toString لطباعة البيانات بشكل واضح
     public String toString() {
         return "Name: " + name + ", Age: " + age;
     }
@@ -98,6 +97,7 @@ package com.mycompany.srmsproject;
 public class SRMSProject {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Student S = new Student("a" , 7 , "d" , "c" , 6 , 5);
+        System.out.println(S);
     }
 }

@@ -10,7 +10,6 @@ public class Student extends Person {
     private double gpa;
     private int year;
 
-    // Constructor
     public Student(String name, int age, String studentId, String major, double gpa, int year) {
         super(name, age); 
         this.studentId = studentId;
@@ -19,7 +18,6 @@ public class Student extends Person {
         this.year = year;
     }
 
-    // Getter & Setter 
     public String getStudentId() {
         return studentId;
     }

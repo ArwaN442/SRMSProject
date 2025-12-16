@@ -10,45 +10,33 @@ public class Student extends Person {
     private double gpa;
     private int year;
 
-    public Student(String name, int age, String studentId, String major, double gpa, int year) {
+    public Student(String name, int age, String studentId, 
+                   String major, double gpa, int year) {
         super(name, age); 
         this.studentId = studentId;
         this.major = major;
         this.gpa = gpa;
-        this.year = year;
-    }
+        this.year = year;  }
 
     public String getStudentId() {
-        return studentId;
-    }
-
+        return studentId; }
     public void setStudentId(String studentId) {
-        this.studentId = studentId;
-    }
+        this.studentId = studentId; }
 
     public String getMajor() {
-        return major;
-    }
-
+        return major;  }
     public void setMajor(String major) {
-        this.major = major;
-    }
+        this.major = major; }
 
     public double getGpa() {
-        return gpa;
-    }
-
+        return gpa; }
     public void setGpa(double gpa) {
-        this.gpa = gpa;
-    }
+        this.gpa = gpa; }
 
     public int getYear() {
-        return year;
-    }
-
+        return year; }
     public void setYear(int year) {
-        this.year = year;
-    }
+        this.year = year;  }
     
     @Override
     public String toString() {
@@ -56,6 +44,5 @@ public class Student extends Person {
                 ", Student ID: " + studentId +
                 ", Major: " + major +
                 ", GPA: " + gpa +
-                ", Year: " + year;
-    }
+                ", Year: " + year;  }
 }
